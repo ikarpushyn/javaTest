@@ -2,13 +2,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        Person User1 = new Person();
+        Person user1 = new Person();
+        Person user2 = new Person("Ilya");
+        Person user3 = new Person("Ilya", 100);
+        Person user4 = new Person("Ilya", "Karpushyn");
 
-
-        Person User2 = new Person("Ilya");
-
-        Person User3 = new Person("Ilya", 100);
-
+        System.out.println(user1.name);
+        System.out.println(user1.age);
+        System.out.println(user2.name);
+        System.out.println(user2.age);
 
     }
 }

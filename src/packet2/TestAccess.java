@@ -5,7 +5,7 @@ public class TestAccess {
         AccessLevels object = new AccessLevels();
 
         System.out.println(object.defaultVar);
-        System.out.println(object.intProtected);
+        System.out.println(object.protectedVar);
         System.out.println(object.publicVar);
     }
 }
